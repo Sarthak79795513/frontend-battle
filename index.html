@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Striking Hero Section</title>
+  <!-- AOS CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="light">
+<!-- Sticky Navbar -->
+
+  <nav class="navbar" data-aos="fade-down">
+
+  <div class="nav-container">
+    <div class="nav-logo">Frontend Battle</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#start">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Loader -->
+<div id="loader" class="loader">
+  <video id="loaderVideo" autoplay muted loop>
+    <source src="assets/loader.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="loader-text">Launching Experience...</div>
+</div>
+
+
+
+  <!-- Theme Toggle -->
+  <button id="theme-toggle">🌓</button>
+
+  <!-- Hero Section -->
+ <header class="hero" id="hero">
+
+    <video autoplay muted loop id="heroVideo">
+      <source src="assets/striking.mp4" type="video/mp4">
+    </video>
+ <div class="hero-content" data-aos="fade-up">
+
+      <h1>Strike with Precision</h1>
+      <p>Replicate. Innovate. Dominate.</p>
+      <a href="#start" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Extra section -->
+  <section id="start" class="start-section">
+    <h2>Welcome to the Future</h2>
+    <p>Let’s build something extraordinary.</p>
+  </section>
+<!-- Features Section -->
+<section class="features-section" id="features">
+  <h2>Why Developers Love It</h2>
+  <div class="card" data-aos="zoom-in" data-aos-delay="100">
+
+    <div class="card">
+      <h3>⚡ Fast Load</h3>
+      <p>Optimized structure with quick load time and smooth experience.</p>
+    </div>
+    <div class="card">
+      <h3>📱 Mobile Ready</h3>
+      <p>Fully responsive design that looks stunning on all screen sizes.</p>
+    </div>
+    <div class="card">
+      <h3>🎯 Pixel Perfect</h3>
+      <p>Designs match exactly as per provided assets — pixel for pixel.</p>
+    </div>
+  </div>
+</section>
+<!-- Testimonial Section -->
+<section class="testimonial-section" id="testimonials">
+  <h2>What Developers Say</h2>
+  <div class="testimonial-container">
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+      <p>"A visually stunning and technically solid page. Loved the loader and video background!"</p>
+      <div class="testimonial-author">
+        <img src="assets/image.png" alt="User" />
+        <span>Arjun Mehta</span>
+      </div>
+    </div>
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+      <p>"I was genuinely impressed by the smooth animations and dark mode switch. Great work!"</p>
+      <div class="testimonial-author">
+        <img src="assets/image.png" alt="User" />
+        <span>Sneha Patil</span>
+      </div>
+    </div>
+    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+      <p>"Every section is well-crafted and responsive. Truly front-end battle ready!"</p>
+      <div class="testimonial-author">
+        <img src="assets/image.png" alt="User" />
+        <span>Ravi Kulkarni</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <script src="js/script.js"></script>
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+</body>
+</html>
